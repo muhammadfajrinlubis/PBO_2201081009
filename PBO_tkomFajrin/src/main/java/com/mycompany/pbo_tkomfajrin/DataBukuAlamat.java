@@ -42,13 +42,13 @@ public class DataBukuAlamat {
         temp.setNama("Ali");
         temp.setAlamat("Padang");
         temp.setNotelp("1111");
-        temp.setEmail("ervan@pnp.ac.id");
+        temp.setEmail("muhammadfajrinlubis3@gmail.com");
         data.insert(temp);
         BukuAlamat temp1 = new BukuAlamat();
         temp1.setNama("Ani");
         temp1.setAlamat("Padang");
         temp1.setNotelp("1111");
-        temp1.setEmail("ervan@pnp.ac.id");
+        temp1.setEmail("mhdpazrinlubis776@gmail.com");
         data.insert(temp1); 
         //tampilkan
         BukuAlamat[] list = data.getAll();
