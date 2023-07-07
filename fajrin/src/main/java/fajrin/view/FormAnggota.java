@@ -47,6 +47,7 @@ public class FormAnggota extends javax.swing.JFrame {
     public JTextField getTxtkodeAnggota() {
         return txtkodeAnggota;
     }
+    
 
     /**
      * This method is called from within the constructor to initialize the form.

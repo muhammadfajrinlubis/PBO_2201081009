@@ -15,8 +15,9 @@ public class BukuDaoImpl implements BukuDao{
     private List<Buku> data= new ArrayList<>();
     
     public BukuDaoImpl(){
-        data.add(new Buku("A001","fajrin","sibuhuan","L"));
-        data.add(new Buku("A002","faisal","sibuhuan","L"));
+        data.add(new Buku("B001","Perogram","fajrin","Fajrin"));
+        data.add(new Buku("B002","java","fajrin","Fajrin"));
+       
     }
  public void insert(Buku buku){
         data.add(buku);
